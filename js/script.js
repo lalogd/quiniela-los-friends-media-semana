@@ -329,7 +329,7 @@ function send(){ //Envía quiniela al whatsapp
     const quinbara = "*Quiniela de $10 pesos*%0A%0A";
     whatsapptext = encodeURI(localStorage.getItem("results"));
     whatsapptext = whatsapptext.split('*').join('%0D').replace(/#/g,"");
-    window.location.href = "https://wa.me/52553318281232?text="+quinbara + whatsapptext;}
+    window.location.href = "https://wa.me/523318281232?text="+quinbara + whatsapptext;}
 }
 
 window.addEventListener("load",start,false);
